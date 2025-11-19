@@ -219,9 +219,6 @@ The script includes robust error handling for:
 - Missing API keys
 - Failed competitor analysis
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
