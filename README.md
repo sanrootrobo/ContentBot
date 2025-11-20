@@ -82,19 +82,19 @@ python seo_blog_writer.py -c blog_config.json --client client_website_dump.txt
 
 ### Custom Word Count Range
 ```bash
-python seo_blog_writer.py -c blog_config.json --min-words 2000 --max-words 4000
+python SeoWriter6_google_Nlp_Client_1.py -c blog_config.json --min-words 2000 --max-words 4000
 ```
 
 ### Funnel-Stage Focused Content
 ```bash
 # TOFU (awareness-focused, educational)
-python seo_blog_writer.py -c blog_config.json --client-focus 0.2
+python SeoWriter6_google_Nlp_Client_1.py -c blog_config.json --client-focus 0.2
 
 # MOFU (balanced educational + promotional)
-python seo_blog_writer.py -c blog_config.json --client-focus 0.5
+python SeoWriter6_google_Nlp_Client_1.py -c blog_config.json --client-focus 0.5
 
 # BOFU (conversion-focused, product-heavy)
-python seo_blog_writer.py -c blog_config.json --client-focus 0.9
+python SeoWriter6_google_Nlp_Client_1.py -c blog_config.json --client-focus 0.9
 ```
 
 ### Verbose Mode (detailed logging)
